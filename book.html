@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,10 +33,34 @@
         <div class="seat">
             <img src="https://imgur.com/AV0Oh8O.png" alt="seat">
         </div>
+        <form class="forms">
+            <label for="name">Name</label>
+            <input type="text" data-clear-btn="true" id="name" value="">
+
+            <label for="mail">Email Address</label>
+            <input type="email" data-clear-btn="true" id="mail" value="">
+
+            <label for="SeatRow" class="select">Select your row of seat </label>
+            <select id="SeatRow">
+                <option value="">Select your seat row</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+                <option value="4">D</option>
+                <option value="5">E</option>
+                <option value="6">F</option>
+                <option value="7">G</option>
+                <option value="8">H</option>
+                <option value="9">I</option>
+                <option value="10">J</option>
+                <option value="11">K</option>
+            </select>
+        </form>
     </div>
 
     <div data-role="footer" data-theme="b">
         <p>Copyright Minase Cinema 2021</p>
     </div>
 </body>
+
 </html>
