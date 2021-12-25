@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.gallery div{
+    margin: 0 0 10px 0;
+    font: normal 400 12px/140% "roboto", sans-serif;
+}
+.gallery img{
+    width: 100px;
+    height: auto;
+    margin: 10px 0 0 0;
+}
+
+.gallery figure{
+    display: inline-block;
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+    font: normal 400 10px/140% "roboto", sans-serif;
+    
+}
+
+.promo div{
+    margin: 0 0 10px 0;
+    font: normal 400 12px/140% "roboto", sans-serif;
+}
+
+.promo img{
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.ui-footer{
+    text-align: center;
+    font: italic 200 8px/140% "roboto", sans-serif;
+}
+
+.about h1{
+    font: normal 400 20px/140% "roboto", sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.about p{
+    font: normal 400 12px/140% "roboto", sans-serif;
+    margin-top: 10px;
+}
+
+.event{
+    width: 150px;
+}
+
+.text{
+    font: normal 400 20px/140% "roboto", sans-serif;
+}
+
+.ui-grid-a{
+    margin: 20px 0 0 0;
+}
+
+.ui-block-a{
+    margin: 0 0 20px 0;
+}
+
+.ui-block-b p{
+    font: normal 400 12px/140% "roboto", sans-serif;
+}
+
+.seat{
+    text-align: center;
+}
+
+.seat img{
+    width: 100%;
+}
